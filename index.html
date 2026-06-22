@@ -6,16 +6,37 @@
 </head>
 <body>
 
-    <h1>Aquarium Lid Designer</h1>
+<h1>Aquarium Lid Designer V2</h1>
 
-    <div class="toolbar">
-        <button onclick="addRectangle()">Add Rectangle</button>
-        <button onclick="addCircle()">Add Circle</button>
-    </div>
+<div class="controls">
 
-    <svg id="canvas" width="1000" height="600"></svg>
+    <h3>Rectangle</h3>
 
-    <script src="script.js"></script>
+    Width:
+    <input id="rectWidth" type="number" value="200">
+
+    Height:
+    <input id="rectHeight" type="number" value="100">
+
+    Radius:
+    <input id="rectRadius" type="number" value="0">
+
+    <button onclick="addRectangle()">Add Rectangle</button>
+
+    <hr>
+
+    <h3>Circle</h3>
+
+    Diameter:
+    <input id="circleDiameter" type="number" value="100">
+
+    <button onclick="addCircle()">Add Circle</button>
+
+</div>
+
+<svg id="canvas" width="1200" height="700"></svg>
+
+<script src="script.js"></script>
 
 </body>
 </html>
