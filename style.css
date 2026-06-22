@@ -1,26 +1,27 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
+body{
+    font-family:Arial, sans-serif;
+    margin:20px;
 }
 
-h1 {
-    text-align: center;
+h1{
+    text-align:center;
 }
 
-.toolbar {
-    text-align: center;
-    margin-bottom: 20px;
+.controls{
+    margin-bottom:20px;
 }
 
-button {
-    padding: 10px 15px;
-    margin: 5px;
-    cursor: pointer;
+input{
+    width:80px;
+    margin-right:10px;
 }
 
-#canvas {
-    border: 2px solid #333;
-    background: #f8f8f8;
-    display: block;
-    margin: auto;
+button{
+    padding:8px 12px;
+    cursor:pointer;
+}
+
+#canvas{
+    border:2px solid black;
+    background:#f8f8f8;
 }
